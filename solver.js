@@ -33,6 +33,8 @@ var row = [];
 for(var i = 0; i<COL_NB; i++){
 	row.push(0);
 }
+
+//main file
 for(var i = 0; i<ROW_NB;i++){
 	matrix.push(row.slice());
 }
